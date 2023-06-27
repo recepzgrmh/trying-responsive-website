@@ -1,0 +1,91 @@
+body {
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 295vh;
+    background: radial-gradient(circle at 10% 20%, rgb(148, 241, 246) 0%, rgb(148, 189, 246) 100.7%);
+
+}
+.main {
+    flex: 1;    
+}
+
+header{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: 10px;
+    margin-bottom: 20px;
+}
+.button-box{
+    position: absolute;
+    left: 65%;
+}
+
+.button{
+    background-color: #6ec7eb;
+    margin: 5px;
+    padding: 10px 30px;
+    color: rgb(95, 97, 96);
+    border: 1px solid;
+    display: inline;
+    box-shadow: 0 0 10px #95e5f3;
+    text-align: center;
+    
+}
+
+.photo {
+    margin-top: 100px;
+}
+
+.image {
+    width: 45%;
+}
+
+.title {
+    font-family: 'Caveat', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    width: 40%;
+}
+
+.second {
+    float: right;
+}
+
+.text{
+    position: relative;
+    left: 20px;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}
+
+/*-----------------------------------------------------------------------*/
+
+
+
+.favorite-songs{
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    margin-top: 5%;
+    text-align: center;
+    border-top: 2px solid;
+    padding: 30px;
+}
+
