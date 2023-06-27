@@ -11,13 +11,14 @@ body {
     flex: 1;    
 }
 
-header{
+header > span{
     font-family: 'Caveat', cursive;
     font-weight: bold;
     font-size: 2rem;
     text-align: 10px;
     margin-bottom: 20px;
 }
+/*
 .button-box{
     position: absolute;
     left: 65%;
@@ -34,7 +35,7 @@ header{
     text-align: center;
     
 }
-
+*/
 .photo {
     margin-top: 100px;
 }
@@ -75,17 +76,45 @@ p{
     font-family: 'Caveat', cursive;
 }
 
-/*-----------------------------------------------------------------------*/
-
-
-
 .favorite-songs{
     display: inline-block;
     position: relative;
     left: 25%;
-    margin-top: 5%;
+    width: 60%;
     text-align: center;
-    border-top: 2px solid;
-    padding: 30px;
+    border-top: 2px solid darkblue;
+    padding-top: 40px;
+    margin-top: 10%;
 }
 
+@media (max-width:1368px){
+ header{
+    text-align: center;
+ }
+ .left{
+    float: none;
+    
+ }
+ .right{
+    float: none;
+    
+ }
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    text-indent: 30px;
+}
+
+ .image{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: cover;
+ }
+
+}
